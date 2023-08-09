@@ -57,21 +57,38 @@ class _MyHomePageState extends State<MyHomePage> {
                 )
               ],
             ),
+            SizedBox(
+              height: 20,
+            ),
             Container(
               height: 180,
-              child: PageView.builder(
-                  controller: PageController(viewportFraction: 0.8),
-                  itemCount: 5,
-                  itemBuilder: (_, i) {
-                    return Container(
-                      height: 180,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          image: DecorationImage(
-                              image: AssetImage("image/pic.jpg"))),
-                    );
-                  }),
-            )
+              child: Stack(children: [
+                Positioned(
+                  top: 0,
+                  left: -20,
+                  right: 0,
+                  child: Container(
+                    height: 180,
+                    child: PageView.builder(
+                        controller: PageController(viewportFraction: 0.8),
+                        itemCount: 5,
+                        itemBuilder: (_, i) {
+                          return Container(
+                            height: 180,
+                            width: MediaQuery.of(context).size.width,
+                            margin: const EdgeInsets.only(right: 10),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                  image: AssetImage("image/pic_1.png"),
+                                  fit: BoxFit.fill,
+                                )),
+                          );
+                        }),
+                  ),
+                )
+              ]),
+            ),
           ],
         ),
       )),

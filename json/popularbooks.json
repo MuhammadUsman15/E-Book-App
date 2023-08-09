@@ -1,0 +1,38 @@
+[
+    {
+    "rating": "4.5",
+    "title":"Lil Mama See",
+    "text":"Road Runner",
+    "img": "img/pic-1.png",
+    "audio": "audio1.mp3"
+    },
+
+    {
+    "rating": "4.5",
+    "title":"THE WATER CURE",
+    "text":"Martin Hyatt",
+    "img": "img/pic-1.png",
+    "audio": "audio1.mp3"
+    },
+    {
+        "rating": "4.5",
+        "title":"THE WATER CURE",
+        "text":"Martin Hyatt",
+        "img": "img/pic-1.png",
+        "audio": "audio1.mp3"
+        },
+        {
+            "rating": "4.5",
+            "title":"THE WATER CURE",
+            "text":"Martin Hyatt",
+            "img": "img/pic-1.png",
+            "audio": "audio1.mp3"
+            },
+            {
+                "rating": "4.5",
+                "title":"THE WATER CURE",
+                "text":"Martin Hyatt",
+                "img": "img/pic-1.png",
+                "audio": "audio1.mp3"
+                }
+ ]
